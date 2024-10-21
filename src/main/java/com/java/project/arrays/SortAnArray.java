@@ -16,7 +16,7 @@ public class SortAnArray {
     public static void sortArrayInAsc(int[] inputArray) {
         boolean swapped = true;
         int j = 0;
-        int currentElementHolder = 0;
+        int currentElementHolder;
 
         while (swapped) {
             swapped = false;
@@ -35,7 +35,7 @@ public class SortAnArray {
     public static void sortArrayInDesc(int[] inputArray) {
         boolean swapped = true;
         int j = 0;
-        int currentElementHolder = 0;
+        int currentElementHolder;
         while (swapped) {
             swapped = false;
             j++;
